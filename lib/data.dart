@@ -1,7 +1,5 @@
 import 'dart:convert';
 
-import 'package:flutter/material.dart';
-
 class Document {
   final Map<String, Object?> _json;
   Document() : _json = jsonDecode(documentJson);
